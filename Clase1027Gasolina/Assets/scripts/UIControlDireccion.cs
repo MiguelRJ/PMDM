@@ -18,9 +18,13 @@ public class UIControlDireccion : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		_cubo.transform.Rotate (Vector3.up);
+		
 		if (!_sigueAlCubo) {
 			transform.rotation = new Quaternion (x, y, z, w);
+		}
+
+		if (ControlCombustible._hayCombustible) {
+			_cubo.transform.Rotate (Vector3.up);
 		}
 	}
 }
