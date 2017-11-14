@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Escena/Pared.unity
-  isLoaded: 1
-  isActive: 1
