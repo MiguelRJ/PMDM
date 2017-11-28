@@ -50,6 +50,7 @@
      <Compile Include="Assets\script\Juego.cs" />
      <Compile Include="Assets\script\Trasladar.cs" />
      <Compile Include="Assets\script\camera.cs" />
+     <Compile Include="Assets\script\controljuego.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
