@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/escenas/principal 1.unity
+- path: Assets/escenas/RayoDesdeCamara.unity
   isLoaded: 1
   isActive: 1

@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DetectarClickEnObjeto.cs" />
      <Compile Include="Assets\lanzarrayo.cs" />
      <Compile Include="Assets\lanzarrayovariosobjetos.cs" />
  <Reference Include="UnityEngine.UI">
