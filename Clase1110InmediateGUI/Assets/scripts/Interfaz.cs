@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//-------------
+using System.IO;
 
 public class Interfaz : MonoBehaviour {
 	
@@ -9,11 +11,17 @@ public class Interfaz : MonoBehaviour {
 	TextMesh _componente3dText;
 	Vector3 pos;
 	Vector3 localVectorUp;
+	public TextAsset file;
+	string path = "txt.txt";
 
 	// Use this for initialization
 	void Start () {
 		_componente3dText = gameObject.GetComponent<TextMesh> ();
 		//_componente3dText.text = _texto;
+		//_componente3dText.text = file.text;
+		StreamReader st = new StreamReader(path,System.Text.Encoding.UTF8);
+		_componente3dText.text = st.ReadToEnd ();
+		st.Close ();
 	}
 	
 	// Update is called once per frame
